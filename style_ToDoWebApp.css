@@ -6,6 +6,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;   
 }
+h2{
+    text-align: center;
+    text-shadow: 30px;
+    color: blueviolet;
+    margin: 0px 5px;
+}
 body{
     background-image: url("bg-todo.jpg");
     background-size: cover;
@@ -61,7 +67,7 @@ body{
     border-radius: 4px;
     cursor: pointer;
     font-size: 13px;
-    margin-right: 26px;
+    margin-right: -16px;
 }
 .task .settings .more-btn{
     outline: none;
@@ -91,7 +97,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7px;
+    padding: 40px;
 }
 .task-box .task:last-child{
     margin-bottom: 0;
